@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Merge Island Calculator</title>
+        <link rel = "stylesheet" href="MergeIsland.css">
+    </head>
+    <body>
+        <div>
+            <p>Merge Island Calculator: by Dylan Sukosky, for Macy Nguyen</p>
+            <p>Your very own MergeIsland calculator!!! How to use: input the teir of item you currently</p>
+            <p>have, input the teir of item you are trying to get to, and how much of that item you need,</p>
+            <p>then hit calculate, and the calculator will display the exact number of the initial teir item</p>
+            <p>you need to make the amount of the teir of item you want!</p>
+            <p>Initial Tier</p>
+            <button onclick = "increaseInitial()">+</button>
+            <button onclick = "decreaseInitial()">-</button>
+            <input id = "initial" readonly>
+
+            <p>Final Tier</p>
+            <button onclick = "increaseFinal()">+</button>
+            <button onclick = "decreaseFinal()">-</button>
+            <input id = "final" readonly>
+
+            <p>Amount</p>
+            <button onclick = "increaseAmount()">+</button>
+            <button onclick = "decreaseAmount()">-</button>
+            <input id = "amount" readonly>
+
+        </div>
+        <div>
+            <button onclick = "changeDisplay()">Calculate</button>
+        </div>
+        <div>
+            <input id = "display" readonly>
+        </div>
+        <script src = "MergeIsland.js"></script>
+        <img src = "Cats.png">
+        <img src = "images (1).jpeg">
+    </body>
+</html>
